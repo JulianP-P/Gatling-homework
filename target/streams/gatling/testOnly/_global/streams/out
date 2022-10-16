@@ -1,0 +1,17 @@
+[debug] javaOptions: Vector(-Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Julia\.sbt\1.0, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Julia\AppData\Local\Temp\jna-71933241\jna14422590621248889869.dll, -Djna.loaded=true, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] Forking tests - parallelism = false
+[debug] javaOptions: Vector(-Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Julia\.sbt\1.0, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Julia\AppData\Local\Temp\jna-71933241\jna14422590621248889869.dll, -Djna.loaded=true, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] Forking tests - parallelism = false
+[debug] javaOptions: Vector(-Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Julia\.sbt\1.0, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Julia\AppData\Local\Temp\jna-71933241\jna14422590621248889869.dll, -Djna.loaded=true, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] Forking tests - parallelism = false
+[debug] javaOptions: Vector(-Djdk.debug=release, -Dswoval.tmpdir=C:\Users\Julia\.sbt\1.0, -Djna.nosys=true, -Dlog4j.ignoreTCL=true, -Djnidispatch.path=C:\Users\Julia\AppData\Local\Temp\jna-71933241\jna14422590621248889869.dll, -Djna.loaded=true, -server, -Xmx1G, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:+ParallelRefProcEnabled, -XX:MaxInlineLevel=20, -XX:MaxTrivialSize=12, -XX:-UseBiasedLocking)
+[debug] Forking tests - parallelism = false
+[debug] Create a single-thread test executor
+[debug] Runner for io.gatling.sbt.GatlingFramework produced 1 initial tasks for 1 tests.
+[debug]   Running TaskDef(perf.Stability, sbt.ForkMain$SubclassFingerscan@47ef968d, false, [SuiteSelector])
+[error] Simulation Stability failed.
+[debug]     Produced 0 nested tasks and 1 events.
+[info] Simulation(s) execution ended.
+[error] Failed tests:
+[error] 	perf.Stability
+[error] (Gatling / testOnly) sbt.TestsFailedException: Tests unsuccessful

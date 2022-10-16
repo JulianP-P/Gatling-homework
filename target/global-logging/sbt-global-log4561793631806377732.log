@@ -1,0 +1,17 @@
+[debug] > Exec(;*Gatling/testOnly ;perf.Debug*, None, None)
+[debug] > Exec(*Gatling/testOnly, None, None)
+[error] Expected symbol
+[error] Not a valid command: *
+[error] Expected whitespace character
+[error] Expected '/'
+[error] Expected ':'
+[error] Expected '::'
+[error] *Gatling/testOnly
+[error]  ^
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)

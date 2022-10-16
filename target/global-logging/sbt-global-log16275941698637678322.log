@@ -1,0 +1,126 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.4 (Eclipse Adoptium Java 11.0.16.1)
+[debug]       Load.loadUnit: plugins took 928.2907ms
+[debug]       Load.loadUnit: defsScala took 0.7079ms
+[debug] [Loading] Scanning directory C:\Users\Julia\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Julia\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 51.1729 ms
+[debug]           Load.resolveProject(global-plugins) took 127.7398ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Julia\.sbt\1.0\plugins, plugins: List(<none>))) took 361.9203ms
+[debug] [Loading] Done in C:\Users\Julia\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 553.2168ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.4471ms
+[debug]     Load.loadUnit(file:/C:/Users/Julia/.sbt/1.0/plugins/, ...) took 1543.5223ms
+[debug]   Load.apply: load took 2133.6224ms
+[debug]   Load.apply: resolveProjects took 15.2449ms
+[debug]   Load.apply: finalTransforms took 134.1044ms
+[debug]   Load.apply: config.delegates took 13.7322ms
+[debug]   Load.apply: Def.make(settings)... took 872.3602ms
+[debug]   Load.apply: structureIndex took 219.7372ms
+[debug]   Load.apply: mkStreams took 3.6926ms
+[info] loading global plugins from C:\Users\Julia\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 8110.2386ms
+[debug]           Load.loadUnit: plugins took 53.7058ms
+[debug]           Load.loadUnit: defsScala took 0.0069ms
+[debug] [Loading] Scanning directory C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\project
+[debug]             Load.loadUnit: mkEval took 16.8486ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.1496 ms
+[info] loading settings for project perf-build from plugins.sbt ...
+[debug]               Load.resolveProject(perf-build) took 5.8106ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id perf-build, base: C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\project, plugins: List(<none>))) took 11.2233ms
+[debug] [Loading] Done in C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\project, returning: (perf-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 272.4095ms
+[debug]           Load.loadUnit: cleanEvalClasses took 10.4941ms
+[debug]         Load.loadUnit(file:/C:/Users/Julia/Desktop/НТ/ДЗ/New/perf/project/, ...) took 340.1057ms
+[debug]       Load.apply: load took 360.9885ms
+[debug]       Load.apply: resolveProjects took 0.5132ms
+[debug]       Load.apply: finalTransforms took 59.1409ms
+[debug]       Load.apply: config.delegates took 0.6744ms
+[debug]       Load.apply: Def.make(settings)... took 165.3477ms
+[debug]       Load.apply: structureIndex took 51.4974ms
+[debug]       Load.apply: mkStreams took 0.0064ms
+[info] loading project definition from C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2940.7564ms
+[debug]     Load.loadUnit: defsScala took 0.0142ms
+[debug] [Loading] Scanning directory C:\Users\Julia\Desktop\НТ\ДЗ\New\perf
+[debug]       Load.loadUnit: mkEval took 1.1073ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(io.gatling.sbt.GatlingPlugin), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(io.gatling.sbt.GatlingPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,io.gatling.sbt.GatlingPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.2283 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 30.675ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\Julia\Desktop\НТ\ДЗ\New\perf, plugins: List(<none>))) took 39.2944ms
+[debug] [Loading] Done in C:\Users\Julia\Desktop\НТ\ДЗ\New\perf, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 217.291ms
+[debug]     Load.loadUnit: cleanEvalClasses took 4.2252ms
+[debug]   Load.loadUnit(file:/C:/Users/Julia/Desktop/НТ/ДЗ/New/perf/, ...) took 3163.6481ms
+[debug] Load.apply: load took 3173.4543ms
+[debug] Load.apply: resolveProjects took 0.2209ms
+[debug] Load.apply: finalTransforms took 73.0437ms
+[debug] Load.apply: config.delegates took 1.8109ms
+[debug] Load.apply: Def.make(settings)... took 506.6134ms
+[debug] Load.apply: structureIndex took 49.3754ms
+[debug] Load.apply: mkStreams took 0.0057ms
+[info] set current project to perf (in build file:/C:/Users/Julia/Desktop/НТ/ДЗ/New/perf/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(Gatling/testOnly perf.MaxPerf, None, None)
+[debug] Evaluating tasks: Gatling / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\target\scala-2.13\test-classes ...
+[info] done compiling

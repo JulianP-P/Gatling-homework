@@ -1,0 +1,4 @@
+[debug] Copy resource mappings: 
+[debug] 	(C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\src\test\resources\gatling.conf,C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\target\scala-2.13\test-classes\gatling.conf)
+[debug] 	(C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\src\test\resources\logback.xml,C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\target\scala-2.13\test-classes\logback.xml)
+[debug] 	(C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\src\test\resources\recorder.conf,C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\target\scala-2.13\test-classes\recorder.conf)

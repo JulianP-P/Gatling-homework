@@ -1,0 +1,17 @@
+[debug] > Exec(gatling:testOnly perf.Debug, None, None)
+[debug] Evaluating tasks: Gatling / testOnly
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Gatling / testOnly
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 5 Scala sources to C:\Users\Julia\Desktop\НТ\ДЗ\New\perf\target\scala-2.13\test-classes ...
+[info] Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.6. Compiling...
+[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.13:1.5.7.
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[error] (Test / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.13'
+[error] Total time: 25 s, completed 22 сент. 2022 г., 12:42:13
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
